@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_notificationStyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notificación Imagen Grande"
+        app:layout_constraintBottom_toTopOf="@+id/btn_notificationStyle2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_notificationStyle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notificación Texto Grande"
+        app:layout_constraintBottom_toTopOf="@+id/btn_notificationStyle3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_notificationStyle1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_notificationStyle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notificación Bandeja de Entrada"
+        app:layout_constraintBottom_toTopOf="@+id/btn_notificationStyle4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_notificationStyle2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_notificationStyle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notificación Conversación"
+        app:layout_constraintBottom_toTopOf="@+id/btn_notificationStyle5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_notificationStyle3" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_notificationStyle5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notificación Controles Multimedia"
+        app:layout_constraintBottom_toTopOf="@+id/btn_groupNotifications"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_notificationStyle4" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_groupNotifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRUPO DE NOTIFICACIONES"
+        app:layout_constraintBottom_toTopOf="@+id/btn_notificationCustomStyle1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_notificationStyle5" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_notificationCustomStyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notificación Personalizada 1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_groupNotifications" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
